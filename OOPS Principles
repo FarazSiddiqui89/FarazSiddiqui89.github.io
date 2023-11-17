@@ -1,0 +1,52 @@
+1) Fundamental Of Object Oriented Programming
+	- Oop is programming paradigm where everything is represented as a object.
+	- objects pass messages to eachother. Each object decides what to do with this message, OOP focuses on object's status and behaviour.
+	
+2) objects
+	- An object is an entity that having states and behaviours.
+		- For Example: A dog has states like age, color and name, and behaviours like eating, sleeping and running.
+		
+		- state tells us how the object look or what properties it has.
+		- behaviours tell us what's the object does.
+		
+		object = state(how the object look) + behaviour (how the object does)
+	
+	- Memory allocated in RAM whenever creating a logical object.
+	- When we creating an object is: the reference type should be the same type or super type of the object type.
+	
+	- Internal process in memory when object created (having six steps)
+		1) JVM assign 8 byte of memory to reference variable and assign default value as null.
+		2) JVM will verify whether the class loading is done otherwise perform class loading.
+		3) At the time of class loading, if any static variables then it will allocating memory.
+		4) By using new operator, object memory will be allocated into heap memory.
+		5) At the time object creation, if any instance variables are there then those will allocate memory inside object memory.
+		6) it will assign object memory address to object reference variable which is created first.
+		
+3) Classes
+	- A class is a template or blueprint from which objects are created.
+	- class define instance variables as class state and instance methods as class behaviours.
+	- instance variable known as member variables.
+	- Classes doesn't consumes any space. but it does compilers memory.
+	
+		- the three main anatomical features of the class.
+			- intance variables
+			- constructors
+			- methods
+			
+4) Principles of Object Oriented Programming
+	- Encapsulation
+	- Inheritance
+	- Abstraction
+	- Polymorphism
+	
+5) Encapsulation
+	- Encapsulation is a process of wrapping code and data together into a single unit.
+	- With encapsulation we have control over the data, for e.g we have blocked our users to assign negative values on decimal price.
+	
+	- Advantages
+		- we can make a class read-only or write-only, for read-only provide only a getter methods 
+			and for write-only provide only setter methods
+		- control over data, we can control the data by providing logic to setter methods.
+		- Data hiding, other classes can't access private members of a class directly.
+		
+		
